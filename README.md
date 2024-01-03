@@ -5,7 +5,7 @@ Site em Desenvolvimento, criado para a aula de PHP no curso de Análise e Desenv
 Atualmente foi criado as páginas de login,cadastro e home,usando o servidor Xampp e para administar o banco de dados em MySQL foi usado o phpMyAdmin.
 
 Página de login:
-<img src="../Saude-Online-web-PHP/img/login-saude-online.png">
+<img src="/img/login-saude-online.png">
 
 Página de Cadastro:
 <img src="/img/cadastro-saude-online.png">
