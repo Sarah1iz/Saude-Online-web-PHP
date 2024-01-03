@@ -8,4 +8,4 @@ Página de login:
 <img src="../Saude-Online-web-PHP/img/login-saude-online.png">
 
 Página de Cadastro:
-<img src="../Saude-Online-web-PHP/img/cadastro-saude-online.png">
+<img src="/img/cadastro-saude-online.png">
