@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-login">
+        <div class="slogan">
+            <div>
+                <h1>Saúde Online</h1>
+                <br>
+                <h4>Escolha o dia e horário que gostaria de ser atendido e veja os profissionais que estarão a sua disposição!</h4>
+            </div>
+        </div>
+        <div class="login-area">
+            <div class="login-form">
+                <h1>Faça seu login</h1>
+                <h4>Entre para acessar as informações médicas.</h4>
+                <form action="conexao_bd.php" method="POST">
+                    <label>Email*</label>
+                    <br>
+                    <input type="text" name="email" placeholder="Digite seu email" class="input">
+                    <br>
+                    <label>Senha*</label>
+                    <br>
+                    <input type="text" name="senha" placeholder="Digite sua senha" class="input">
+                    <br>
+                    <input type="submit" name="logar" value="Entrar" class="open">
+                </form>
+                <form action="../cadastro/cadastro.php" method="POST" class="cadastro">
+                    <h5>Ainda não tem cadastro?</h5>
+                    <a href="../cadastro/cadastro.php">Cadastre-se aqui!</a>
+                </form>
+                <div class="erro">
+                    <h4>Email e/ou senha incorretos. Tente novamente</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
